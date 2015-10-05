@@ -12,8 +12,8 @@ def prepare_email(appointments):
     Returns:
         list: List of invites
     """
-    return ['Dear {},\nI look forward to meeting with you \
-on {}.\nBest,\nMe'.format(col[0], col[1])
+    return ['Dear {},\nI look forward to meeting with you on {}.\nBest,\nMe'
+            .format(col[0], col[1])
             for col in appointments]
 
 
